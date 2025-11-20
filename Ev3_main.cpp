@@ -10,6 +10,7 @@ using namespace std;
 // Fecha: 20 / 11 / 2025
 // Descripción: Programa principal para leer un archivo de bitácora, contar la frecuencia de IPs y mostrar las 5 IPs más frecuentes usando un BST.
 
+// Estructura para almacenar IP y su contador
 struct IPGroup{
     string ip;
     int count;
@@ -27,6 +28,8 @@ struct IPGroup{
     }
 };
 
+// Recorrido inverso en orden para obtener las IPs más frecuentes   
+// Complejidad: O(n)
 void inorderReverse(BinaryNode<IPGroup>* node, int &printed) {
     if (node == nullptr || printed >= 5) return;
 
