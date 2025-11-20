@@ -16,15 +16,19 @@ struct IPGroup{
     int count;
 
     bool operator<(const IPGroup& other) const {
+        if (count == other.count)
+            return ip < other.ip;   // desempate por IP
         return count < other.count;
     }
 
     bool operator>(const IPGroup& other) const {
+        if (count == other.count)
+            return ip > other.ip;   // desempate por IP
         return count > other.count;
     }
 
     bool operator==(const IPGroup& other) const {
-        return count == other.count;
+        return count == other.count && ip == other.ip;
     }
 };
 
