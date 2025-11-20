@@ -7,7 +7,7 @@
 using namespace std;
 
 // María Fernanda García Bushbeck A01199490, César Tadeo Bernal Sauceda A00841810, Regina Aguilar García A00841923
-// Fecha: 19 / 11 / 2025
+// Fecha: 20 / 11 / 2025
 // Descripción: Clase para implementar una fila usando listas enlazadas
 
 template <class T>

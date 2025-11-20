@@ -5,7 +5,7 @@
 using namespace std;
 
 // María Fernanda García Bushbeck A01199490, César Tadeo Bernal Sauceda A00841810, Regina Aguilar García A00841923
-// Fecha: 01 / 01 / 2025
+// Fecha: 20 / 11 / 2025
 // Descripción: Implementación de nodos para luego trabajar con listas enlazadas
 
 template <class T>

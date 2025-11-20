@@ -2,7 +2,7 @@
 César Tadeo Bernal Sauceda A00841810
 Regina Aguilar García A00841923
 
-Fecha: 19/11/2025
+Fecha: 20/11/2025
 
 Este archivo tiene como finalidad el facilitar el ordenamiento de IPs. Permite
 separar las direcciones IP en sus componentes como manejar la mimsa y compararla. */

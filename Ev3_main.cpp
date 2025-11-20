@@ -6,6 +6,10 @@
 #include "DefDatos.h"
 using namespace std;
 
+// María Fernanda García Bushbeck A01199490, César Tadeo Bernal Sauceda A00841810, Regina Aguilar García A00841923
+// Fecha: 20 / 11 / 2025
+// Descripción: Programa principal para leer un archivo de bitácora, contar la frecuencia de IPs y mostrar las 5 IPs más frecuentes usando un BST.
+
 struct IPGroup{
     string ip;
     int count;
